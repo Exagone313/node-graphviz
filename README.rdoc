@@ -1,8 +1,6 @@
 = Node.js GraphViz Module
 
-Copyright (C) 2010 Gregoire Lejeune
-
-* Sources : http://github.com/glejeune/node-graphviz
+Copyright (C) 2010 Gregoire Lejeune and contributors
 
 == DESCRIPTION
 
@@ -13,6 +11,14 @@ Interface to the GraphViz graphing tool
 * So many things!
 
 == CHANGELOG
+
+=== 0.0.9:
+
+* Add support for removing node (by Rogelio Meza Torres <https://github.com/rogelio-meza-t>)
+* Rename `attribut` to `attribute` (by Matt Frantz <https://github.com/mhfrantz>)
+* Add support for long .dot files (by Dan Nissenbaum <https://github.com/daniel347x>)
+* Fix deep-dredge (by Colle <https://github.com/piercus>)
+* Fix race conditions (by Greg Michalec <https://github.com/michalgm>)
 
 === 0.0.8 :
 * Issue #10 : Update graphviz attributs
@@ -79,12 +85,7 @@ A basic example
 
 == INSTALLATION
 
-  $ cd ~/.node_libraries
-  $ git clone git://github.com/glejeune/node-graphviz.git
-
-Or :
-
-  $ npm install graphviz
+  TODO
 
 You also need to install GraphViz[http://www.graphviz.org]
 
@@ -101,7 +102,7 @@ Install node-jake[http://github.com/mde/node-jake] and dox[http://github.com/vis
 
 == LICENCES
 
-Copyright (c) 2010 Gregoire Lejeune <gregoire.lejeune@free.fr>
+Copyright (c) 2010 Gregoire Lejeune <gregoire.lejeune@free.fr> and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
