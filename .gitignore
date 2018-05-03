@@ -4,4 +4,5 @@ pkg
 test/output/
 documentation.html
 node_modules/
-test/*.png
+tests/*.png
+yarn.lock
